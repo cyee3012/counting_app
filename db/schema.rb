@@ -16,6 +16,19 @@ ActiveRecord::Schema.define(version: 2021_10_02_055911) do
     t.string "name"
     t.string "partner_name"
     t.date "start_date"
+    
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "reminders", force: :cascade do |t|
+    t.string "holidays"
+    t.date "anniversary"
+    t.date "birthday"
+    t.date "monthaversary"
+    t.integer "user_id"
+    t.date "hundred_days"
+
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
