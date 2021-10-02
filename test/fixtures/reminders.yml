@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  holidays: MyString
+  anniversary: 2021-10-02
+  birthday: 2021-10-02
+  monthaversary: 2021-10-02
+  user_id: 1
+  hundred_days: 2021-10-02
+
+two:
+  holidays: MyString
+  anniversary: 2021-10-02
+  birthday: 2021-10-02
+  monthaversary: 2021-10-02
+  user_id: 1
+  hundred_days: 2021-10-02
