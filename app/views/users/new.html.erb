@@ -1,0 +1,6 @@
+<%= simple_form_for(@user) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :partner_name %>
+  <%= f.input :start_date, start_year: Date.today.year - 110, end_year: Date.today.year %>
+  <%= f.submit %>
+<% end %>

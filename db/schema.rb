@@ -10,7 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_02_075010) do
+
+ActiveRecord::Schema.define(version: 2021_10_02_060053) do
+
 
   create_table "reminders", force: :cascade do |t|
     t.string "holidays"
