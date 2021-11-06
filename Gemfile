@@ -55,3 +55,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #added gems by Ken
 gem 'pundit'
 gem 'devise'
+gem 'bootstrap', '~> 5.1', '>= 5.1.3'
